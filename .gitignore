@@ -1,0 +1,16 @@
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/db/*.sqlite3
+/db/*.sqlite3-*
+.bundle/
+/vendor/bundle
+node_modules/
+dist/
+.angular/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
